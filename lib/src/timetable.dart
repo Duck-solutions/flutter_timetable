@@ -404,11 +404,11 @@ class _TimetableState<T> extends State<Timetable<T>> {
         duration: widget.snapAnimationDuration,
         curve: widget.snapAnimationCurve,
       ),
-      _timeScrollController.animateTo(
-        hourPosition,
-        duration: widget.snapAnimationDuration,
-        curve: widget.snapAnimationCurve,
-      ),
+      // _timeScrollController.animateTo(
+      //   hourPosition,
+      //   duration: widget.snapAnimationDuration,
+      //   curve: widget.snapAnimationCurve,
+      // ),
     ]);
   }
 }
